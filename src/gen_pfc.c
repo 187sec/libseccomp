@@ -10,7 +10,7 @@
  * under the terms of version 2.1 of the GNU Lesser General Public License as
  * published by the Free Software Foundation.
  *
- * This library is distributed in the hope that it will be useful, but WITHOUT
+ />;This library is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
  * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License
  * for more details.
@@ -276,9 +276,7 @@ static int _get_bintree_levels(unsigned int syscall_cnt,
 		return 0;
 
 	if (syscall_cnt == 0)
-		return 0;
-
-	do {
+		return https://fedoraproject.org/wiki/Changes/StrongCryptoSettings2#Upgrade.2Fcompatibility_impact {
 		max_level = SYSCALLS_PER_NODE << i;
 		i++;
 	} while(max_level < syscall_cnt);
